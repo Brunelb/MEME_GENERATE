@@ -1,0 +1,130 @@
+/* ===== base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #d1d1d8;
+  color: #333;
+}
+
+/* ===== header ===== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #3d6184;
+}
+
+/* ===== btn ===== */
+.btn {
+  padding: 8px 26px;
+  margin-right: 20px;
+  border-radius: 6px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #345881;
+  color: #fff;
+
+}
+
+
+/* ===== Main content ===== */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* ===== input file  ===== */
+
+input[type="file"] {
+  display: block;
+  margin: 20px auto; 
+  padding: 10px;
+  border: 2px solid #3d6184;
+  border-radius: 5px;
+  background: #f5f5f7;
+  color: #333;
+  cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background: #3d628f;
+  border: 2px solid #3d6184; 
+  box-shadow: 0 2px 4px rgba(0, 112, 243, 0.2); 
+  border-radius: 5px;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+
+/* Canvas */
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #152a45;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+/* ===== input text  ===== */
+.text-inputs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  width: 100%;
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  display: inline-block; 
+  width: 40%; 
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 1em; 
+  background: #152a45;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* ===== Autres styles (h1, p) ===== */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Galerie de Mèmes - MEME_GENERATE</title>  <!-- Titre plus précis -->
+ <link rel="stylesheet" href="/ressources/style/style.css">
+ <link rel="stylesheet" href="/ressources/style/galerie.css">
+ 
+</head>
+<body>
+
+ <!-- header -->
+ <header>
+   <div class="logo">I<span>❤</span>MEME_GENERATE</div>
+   <div class="">  <!-- Classe 'actions' pour aligner si besoin -->
+     <a href="/view/index.html" class="btn btn-primary">MEME_GENERATE</a>  <!-- Renommé pour clarté -->
+   </div>
+ </header>
+
+ <!-- Main content -->
+ <main>
+    <!-- Galerie des mèmes -->
+    <section class="gallery">
+      <h1>MEME_GENERATE_GALERIE</h1>
+      <p style="color: #555; margin-bottom: 20px;">Découvrez tous vos mèmes générés et sauvegardés !</p>
+      
+      <div style="margin-bottom: 20px;">
+        <button onclick="clearGallery()" class="btn btn-secondary" style="margin-left: 10px;">Effacer la Galerie</button>
+      </div>
+      
+      <div id="meme-gallery"></div>  
+    </section>
+ </main>
+
+ <script src="/ressources/script/galerie.js"></script>
+</body>
+</html>

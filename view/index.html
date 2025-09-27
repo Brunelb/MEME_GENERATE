@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Générateur de Mèmes</title>
+ <link rel="stylesheet" href="/ressources/style/style.css">
+ 
+</head>
+<body>
+
+ <!-- header -->
+ <header>
+   <div class="logo">I<span>❤</span>MEME_GENERATE</div>
+   <div class="">
+     <a href="/view/galerie.html" class="btn btn-primary">GALERIE</a>
+   </div>
+ </header>
+
+ <!-- Main content -->
+ <main>
+   <h1>MEME_GENERATE</h1>
+   <p>VOUS POUVEZ CRÉER VOS MÈMES ICI ...en <b>PNG</b>.<br>
+   Éditez vos images et créez un mème.</p>
+
+    <input type="file" id="image-uploader" accept="image/*">
+    <canvas id="memeCanvas"></canvas>
+    
+ <!-- input -->
+    <div class="text-inputs-container">
+      <input type="text" id="topText" placeholder="Texte en haut">
+      <input type="text" id="bottomText" placeholder="Texte en bas">
+    </div>
+
+ <!-- Btn de téléchargement et de partage  -->
+  <div class="btn-container">
+    <button id="download-btn" class="btn btn-primary">Télécharger le Mème</button> 
+    <button id="shareMeme-btn" class="btn btn-primary">Partager  le Mème</button>       
+  </div>
+ </main>
+
+ <script src="/ressources/script/script.js"></script>
+
+</body>
+</html>
